@@ -89,11 +89,14 @@ The dataset contains **366,000+ Kickstarter projects** with the following attrib
 
 [View Dashboard](https://github.com/EruvaRamya/KickStarter-CrowdFunding/blob/main/CrowdFunding%20Project-Power%20Bi%20Dashboard-PPT.pdf)
 
+I have implemented this dashboard in Excel, Power BI & Tableau
+[View Interactive Dashboard](https://drive.google.com/drive/folders/1OJpVOPwSBf-N9uXtGClHk_svOlvZQVMv?usp=sharing)
+
 ---
 
 ## Author
 
 **Ramya Eruva**
 
-Data Analyst | Power BI Developer  
+Data Analyst | Business Analyst | Data Visualization | Excel | Power BI | Tableau 
 GitHub: https://github.com/yourusername
