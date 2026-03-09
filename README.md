@@ -1,6 +1,6 @@
-# Kickstarter Crowdfunding Analysis Dashboard
+## Kickstarter Crowdfunding Analysis Dashboard
 
-## Project Overview
+### Project Overview
 This project presents an **end-to-end data analytics solution** analyzing global crowdfunding campaigns from **Kickstarter** using **Microsoft Power BI**.
 
 The dashboard analyzes **366,000+ crowdfunding projects** to explore campaign outcomes, funding patterns, backer engagement, and category performance. The goal is to identify key factors that influence project success and uncover trends in the crowdfunding ecosystem.
@@ -9,7 +9,7 @@ The insights help **entrepreneurs, investors, and platform strategists** make in
 
 ---
 
-# Analytical Objectives
+### Analytical Objectives
 
 The project aims to answer the following key business questions:
 
@@ -22,7 +22,7 @@ The project aims to answer the following key business questions:
 
 ---
 
-# Dataset
+### Dataset
 
 The dataset contains **366,000+ Kickstarter projects** with the following attributes:
 
@@ -39,59 +39,55 @@ The dataset contains **366,000+ Kickstarter projects** with the following attrib
 
 ---
 
-# Tools & Technologies
+### Tools & Technologies
 
-| Tool | Purpose |
-|-----|------|
-| **Microsoft Power BI** | Dashboard development and visualization |
-| **Power Query** | Data cleaning and transformation |
-| **DAX (Data Analysis Expressions)** | Data modeling and calculated measures |
-| **Excel / CSV** | Dataset storage and preprocessing |
+- **Microsoft Power BI** – Dashboard creation and data visualization  
+- **Power Query** – Data cleaning and transformation  
+- **DAX** – Creating calculated measures and data modeling  
+- **Excel / CSV** – Data storage and preprocessing
 
 ---
 
-# Dashboard Features
+### Dashboard Features
 
 The Power BI dashboard includes the following interactive components:
 
-### Interactive Filters
-- Year
-- Quarter
-- Month
-- Project State
-
-### Analytical Visualizations
-- Category Analysis
-- Funding Goal Distribution
-- Geographic Distribution of Campaigns
-- Success Rate Trends Over Time
-- Backer Engagement Analysis
+- Campaign overview (total campaigns, success rate, pledged amount, backers)
+- Category performance and success rates
+- Funding goal vs campaign success analysis
+- Geographic distribution of campaigns
+- Campaign status tracking (successful, failed, canceled)
+- Monthly/seasonal campaign trends
+- Top performing categories
+- Interactive filters for category, country, year,Quater,Month and status
 
 ---
 
-# Key Insights
+### Key Insights
 
 Some important insights from the analysis include:
 
-- Projects with **moderate funding goals** tend to have **higher success rates**.
-- **Games and Design categories** show strong performance on Kickstarter.
-- Campaigns with **higher backer engagement** are significantly more likely to succeed.
-- The **United States leads global crowdfunding activity** compared to other countries.
+- **High Competition:**  
+  More than half of crowdfunding campaigns fail, highlighting the competitive nature of crowdfunding platforms and the importance of setting realistic funding goals.
+
+- **Dominant Categories:**  
+  Creative and entertainment-related categories account for the majority of campaigns across crowdfunding platforms.
+
+- **Tabletop Games Success:**  
+  Tabletop game projects show the highest success rates, likely driven by strong niche communities and high audience engagement.
+
+- **Impact of Funding Goals:**  
+  Campaigns with lower funding goals tend to have higher success rates compared to those with ambitious targets.
+
+- **Geographic Concentration:**  
+  Crowdfunding activity is heavily concentrated in the United States and other developed economies.
+
+- **Seasonal Trends:**  
+  Campaign launches peak during the middle of the year, suggesting higher audience engagement during this period.
 
 ---
 
-# Business Value
-
-This dashboard provides valuable insights that help:
-
-- **Entrepreneurs** plan realistic funding goals.
-- Identify **high-performing categories** before launching a campaign.
-- Understand **crowdfunding success patterns**.
-- Improve **campaign strategy and audience engagement**.
-
----
-
-# Dashboard Preview
+### Dashboard Preview
 
 ```
 (https://github.com/EruvaRamya/KickStarter-CrowdFunding/blob/main/CrowdFunding%20Project-Power%20Bi%20Dashboard-PPT.pdf)
@@ -99,34 +95,9 @@ This dashboard provides valuable insights that help:
 
 ---
 
-# Repository Structure
 
-```
-Kickstarter-Crowdfunding-Analysis
-│
-├── Dataset
-│   └── kickstarter_projects.csv
-│
-├── Dashboard
-│   └── Kickstarter_Dashboard.pbix
-│
-├── Images
-│   └── dashboard.png
-│
-└── README.md
-```
 
----
-
-# Future Improvements
-
-- Add **predictive modeling for project success**
-- Integrate **machine learning classification**
-- Build **automated data refresh pipelines**
-
----
-
-# Author
+### Author
 
 **Your Name**
 
